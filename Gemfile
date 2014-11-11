@@ -14,5 +14,5 @@ gem 'minitest'
 # To use debugger
 # gem 'debugger'
 
-gem 'pfrpg_classes', path: "../pfrpg_classes/"
-gem 'pfrpg_tables', path: "../pfrpg_tables/"
+gem 'pfrpg_classes'
+gem 'pfrpg_tables'
