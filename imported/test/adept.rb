@@ -20,7 +20,7 @@ class PfrpgClasses::Adept < PfrpgClasses::Heroclass
   end
 
   def alignment
-    Alignment.any
+    PfrpgCore::Alignment.any
   end
 
   def skills_per_level

@@ -29,4 +29,15 @@ class ImportTest < Minitest::Test
     assert load './imported/test/adept.rb'
   end
 
+  def test_import_aasimar_ruby
+    f = PfrpgImport::HeroclassImporter.new('adept.csv', @path)
+    f.import_heroclass
+    puts "Files present: #{Dir.glob(@path + "/*")}"
+    # ensure the files are valid ruby
+    assert load './imported/test/adept_table.rb'
+    assert load './imported/test/adept_spells.rb'
+    assert load './imported/test/adept_feature_info.rb'
+    assert load './imported/test/adept.rb'
+  end
+
 end

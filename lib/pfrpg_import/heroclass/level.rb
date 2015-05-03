@@ -44,7 +44,7 @@ module PfrpgImport
               :will_save         => #{will_save},
               :granted_features  => #{granted_features},
               :choices           => #{choices},
-              :spells_per_day => Tables::Spells::SpellsPerDay.#{title}(#{level})
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.#{title}(#{level})
             }
       eos
     end

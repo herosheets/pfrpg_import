@@ -93,9 +93,9 @@ module PfrpgImport
     def alignment_string
       case @alignment
       when 'any'
-        return 'Alignment.any'
+        return 'PfrpgCore::Alignment.any'
       else
-        return 'Alignment.any'
+        return 'PfrpgCore::Alignment.any'
       end
     end
 

@@ -9,7 +9,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 2,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(1)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(1)
             }
   when 2
     bonus = { :base_attack_bonus => [1,],
@@ -18,7 +18,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 3,
               :granted_features  => ['summon familiar',],
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(2)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(2)
             }
   when 3
     bonus = { :base_attack_bonus => [1,],
@@ -27,7 +27,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 3,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(3)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(3)
             }
   when 4
     bonus = { :base_attack_bonus => [2,],
@@ -36,7 +36,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 4,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(4)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(4)
             }
   when 5
     bonus = { :base_attack_bonus => [2,],
@@ -45,7 +45,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 4,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(5)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(5)
             }
   when 6
     bonus = { :base_attack_bonus => [3,],
@@ -54,7 +54,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 5,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(6)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(6)
             }
   when 7
     bonus = { :base_attack_bonus => [3,],
@@ -63,7 +63,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 5,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(7)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(7)
             }
   when 8
     bonus = { :base_attack_bonus => [4,],
@@ -72,7 +72,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 6,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(8)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(8)
             }
   when 9
     bonus = { :base_attack_bonus => [4,],
@@ -81,7 +81,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 6,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(9)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(9)
             }
   when 10
     bonus = { :base_attack_bonus => [5,],
@@ -90,7 +90,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 7,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(10)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(10)
             }
   when 11
     bonus = { :base_attack_bonus => [5,],
@@ -99,7 +99,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 7,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(11)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(11)
             }
   when 12
     bonus = { :base_attack_bonus => [6,1,],
@@ -108,7 +108,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 8,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(12)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(12)
             }
   when 13
     bonus = { :base_attack_bonus => [6,1,],
@@ -117,7 +117,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 8,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(13)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(13)
             }
   when 14
     bonus = { :base_attack_bonus => [7,2,],
@@ -126,7 +126,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 9,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(14)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(14)
             }
   when 15
     bonus = { :base_attack_bonus => [7,2,],
@@ -135,7 +135,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 9,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(15)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(15)
             }
   when 16
     bonus = { :base_attack_bonus => [8,3,],
@@ -144,7 +144,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 10,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(16)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(16)
             }
   when 17
     bonus = { :base_attack_bonus => [8,3,],
@@ -153,7 +153,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 10,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(17)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(17)
             }
   when 18
     bonus = { :base_attack_bonus => [9,4,],
@@ -162,7 +162,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 11,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(18)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(18)
             }
   when 19
     bonus = { :base_attack_bonus => [9,4,],
@@ -171,7 +171,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 11,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(19)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(19)
             }
   when 20
     bonus = { :base_attack_bonus => [10,5,],
@@ -180,7 +180,7 @@ class PfrpgTables::Tables::Heroclasses::Adept
               :will_save         => 12,
               :granted_features  => nil,
               :choices           => nil,
-              :spells_per_day => Tables::Spells::SpellsPerDay.Adept(20)
+              :spells_per_day => PfrpgTables::Tables::Spells::SpellsPerDay.Adept(20)
             }
 
     end
